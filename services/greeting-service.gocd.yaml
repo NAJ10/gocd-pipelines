@@ -12,7 +12,7 @@ format_version: 3
 pipelines:
   ovoex:
     group: services
-    label_template: "${mygit[:8]}"
+    label_template: "${master[:8]}"
     lock_behavior: none
     materials:
       master: # this is the name of material, the name can contain only of alphanumeric & underscore characters
