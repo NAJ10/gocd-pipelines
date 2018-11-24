@@ -1,13 +1,14 @@
 format_version: 3
-environments:
-  testing:
-    environment_variables:
-      DEPLOYMENT: testing
-    secure_variables:
-      ENV_PASSWORD: "s&Du#@$xsSa"
-    pipelines:
-      - example-deploy-testing
-      - build-testing
+# Not sure what the environments thing is for yet. Causes errors for me at the moment so ignoring it
+#environments:
+  #testing:
+    #environment_variables:
+      #DEPLOYMENT: testing
+    #secure_variables:
+      #ENV_PASSWORD: "s&Du#@$xsSa"
+    #pipelines:
+      #- example-deploy-testing
+      #- build-testing
 pipelines:
   ovoex:
     group: services
