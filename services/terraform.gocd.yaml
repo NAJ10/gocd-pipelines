@@ -25,7 +25,12 @@ pipelines:
           jobs:
             build: # name of the job
               tasks:
-               - exec: # indicates type of task
+                - exec:
+                    command: bash
+                    arguments:
+                      - -c
+                      - env
+               - exec:
                    command: bash
                    arguments:
                      - -c
