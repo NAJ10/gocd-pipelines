@@ -1,0 +1,36 @@
+format_version: 3
+# Not sure what the environments thing is for yet. Causes errors for me at the moment so ignoring it
+environments:
+  testing:
+    environment_variables:
+      GOOGLE_APPLICATION_CREDENTIALS: "gcp.json"
+    secure_variables:
+      GCP_KEY: "AES:1iI88flukJSogPzI1tF13Q==:Aa94Fz9elKPUMRNyfhEQlQiZeh948MFw/I40GNST3xYSBXBNAfqeyxNCLJFT897S6gJ+iw4FtOyWxZVQZPmz7WMdxsLlUZ7vVXwZsyjPzhrX5ZfIqg6wfeJRYJBFpa0qLpmcrUlnxuNHz1eymxkim+2uZwg6+ohvYoqjQkzbmnzZx/SNQFO+Z5o2bAZtdBQP6CDLeEp//g+r3NVGCpOEworonK4O5XQzlg8P4PPK4d0JYAkI3rvgE6XkKf56oeVgwI5YLqqg950pQ4x2SeO/EMYE7srJdBlsjv+oAdZX3yRWFCZ7Z0X0DG7cKjFf1h5LRoNykUC7DT/Rs1u6TYjZnCQ1Egsp3RDqpKPl/PvQobraJ5plJ10+ZO+5t0kpXHdLwvwRo2Jt7DfC4KSvCzZ9fnfYKedZK3BsJn5BzrUpfFeSQwwjqYpthawOA//76M2JjhX+1Z2qhTKaUSNZfQKWp3jXIAnZJqaUETyxGKc6xL7fSbCcY7fOwiulraEDcSbNjbPbcQoD/+acUiQJQY1r1umdSEh12KY1Z8tfzuyzMnSkZw8FwUTS4hLcL0hkhcz7o5yf20bNnhqWcvZkXLTUB1vue5PG0sLUf9pFSit3JMQBn88qVfhloj2o8OjkY+j+zoT8+xg/CZuEmotRWK4nkhxO2J+9Ek6wl5hpmfUwAUtQUHY8hbRw2XF0p1lyGEcuXFMA1RDqG2KC7YaSaYcckd2p29v3UlQxHPFp+0bkotV8UGuqWfbf4kadMeYswp9XOKAuhbk/Wu3W8KPy+MolLSu4wl4jTJuUcURF2fA5Q0vw7LUp/0nFdWZaKVJpp5y0DNthJ0VreAQbTqHFhUXHiI3vmQm3IsNBkY8uW9n3CjCV4mCVohCLxPnK3chSEJB76F5FD0aHvUbgNF36mWhfXJ8YS8h/Afhv/TArY3Zez8Remb/quntKe25W05T/lnvVxcWWVdJVvTw453x2A8fYS9UegXl2zjn0Jz9QjLt+ps7cJdK6m1tAlAi18LcNcpB5EhVSH4Pi5Fyqkz0eD4uphkVFMNF8ObnFbG0XdELEuYno+PYxkkXC5OOv7asBfwCqtQh0Ew4WGIDymImLkDB5fM0WFJh1DOV0M5rjRpveeq6JxeQfV6QoeY9k2NUJ+BkfsefbwyiJYgMhC1vFm0EoSpZDJvEjS7J5JBUAHeJf4jjqaOim0omIJUEuFkoyaYxYR/wnKR/6BqPMu/gmupouIpNCPaGlYLvRr5z3KsfLTIBPK9G4PVqywQNO9UFNsYx41cSDPLCwyhfo8i/GGjsMXcIXAslsdDJ9va5UAg5R9dMTxk6LcUzykrlnXLPImW1Uq9jsJjV2E83p231UvGwM7b6Z5QTWHwL0V2KNSWcVC3YXgp2Z7Km3VJwHgavXdyG0//BiVtgt+uqHBiUhFmPt2Omh8bMx6tcGzdggeBa9jyrR3e/hActepflkzBAnBHv6u+MpPwKyRsoEW9mVSTTJP2j39L1s4U22ZJryfAQkZDDJCRmhPMkBLhsS6Ubas7p64oEaY5e4ABWJqAlpITYg2OKP1E3pdILZsecUNygon6Li2fDj9HtrhztkBURENu0wvT5WnEQeq/oNMQQXPMMuOMzG4sYpdLwU7Wf8BZTvixaChzjz4IBqUpDTqu4ndfmuXur6tiX1Ap0G8oL6dUJ5OKSpjVHU2yEQvXnaRgqKfyZaunHENLU6wP6XBvuNr75Tmu7JxJEtpXSf7H0xGadIz3SqQmlhAV5iB50QdQlTgVrjoL84zHjEpQFLV3Z3Rt4K5sT8sHK4EAGTn+FPGEirjR9zTQ/bnZfFP3jiUmZ2X082unyo5mnUPSDeVzqWmChp1U6Rn/LJ9JHqE78XTLca7okRMs1kI4lhD1YRq75dp4oDKX4iO+9oQwHzGzFWm4ID2ZkkGvEKpV+LsqmkEPCgJ5WD/1eqrxYtwsVsu02F8NiNfsCgC9ZLFwph3P9d0PiK58c+xvgPCxh3vWqNLDpWpgzVjf/8WFMJOgbDzo5SP0xLc0ETbkxHp7zI3MaQKt/JOrQxaz9yDRnXUf2Os8f06cvABMwPQK0khO4tILgEH99I3V2/3I7x4/E11bpWiV2sFGAq8dYj6qNJh6JGiA939ghmfL4uDuSP71HoC9sg1LL1QJOA4+XOmCfhtKDAuUSI+J4zIH16cLCezPw4CmI0w0BYZ9lRGN1+UGMhbABj71Y0nZ6HrrZ2ktrQIwmMx6NCAN0lXs+u1FM4o28LuOhK+oyfTST+/1S+mQz/qnFBJMpXNoYFIcNGkWCM1kgLQ58vkLxDaS8H8od0SFOH24VkZv2r/G+1zVENiE1xm8/kR4z2vAFBCI2AyRI40wvCMKGTB8XIDgWxEVqofWvnIatXD3+gxySadGrud9xyKmIkr7ZQZH98LO3oKrBuJSNhDPK+7WecRKlq7Jlo4CWFTqDhQF4QvEOiZHZDnhARym2x2tgSjZDeUgMc4GHnDeyeYj3MdR/EI5U+ObMAVXSaDB2w8Cx0rkq2AmbGO8WjvnDMAF8tzHlRTPRoAjV/dzggLZ+ftMI6XO6yyvWUa5LSEmdtOABCDLy/kUES5zEGZ6XxwPFp/H9O+httzxZbQvCDXBE77sASTY7M4LywuxzjXvLHUkpllutKWOuYIZZVPFra7rHgMfyFOzkUglGSC48Qdx6AnAxmFnc6HFsDPCXQ5g5cbwWFv3TNzGC6r4IoFOLL8vO9b6i038Mfr3znANztKkzgeSBWYe8rkwXfXULfNX/tusQwPqIn5rJWqpnr0g9QcKNUya1RwZy9fgVAApdx7MG6lJQDHH50CpuNlLwwpOtptymbwHInbv+dFPMywvWHhp8cdE4vvPARJ6XYGz4HJ18TWe1895UiuVhjTqCtvNr8yN2B0MjDdwSjPl6aennkpOvf10jGesDE9xB1u62sjV2xIotA1NgLbVen5HnJE3zGFW/2aH66Pq9PRRr6d8PKR+yTIBXmnP6y6fYX+kyW4A7nZt4qlTmIOU0bfR9XMWqOF1V7AavLCa4mm+uvo1ovG9XaRloOh2IWTxNoZkwzIoJc2SyxKwd5QI/2ESxLvYD759epLCo7g8E5OMT0rtHo3LwZYt2tdkYIrVSlHuDPDmwsbTxCASdM6zqNsK4EidkamIru2xSXKNE9pVJ7H+9LZ+JY3Y/pjiOCMhNUp9y9cJqWqXOT8RDYDq0tH6gb3bQHBBs2zWSjAebdg/C1PCQSQJGnk3s6O1sefXBkICX7tbNSwlMHg38Rt8e2jcG+k2t7m6YeBpC5xIe3R2MI1p8N5WNeAeYUoZ6uQK6dvRfuHqyKrnZTPAQyT9Mft4CuP155uEah9HC/wsMsyLcoAA2IXplligOqz84gvQr5Ydot6nBE35PLiaTiNH0UUkSXg9Y49TqbWWnotn+uCftDr6mLcDsmeUUocX76sJGpVVoq+BS5Vyv+NG1SO/7ECD/HGIBhHW3cH5r0D+JjZRl0n04QJmu14OzvMK3U650san/XpLULhKl1BIAJiNr/+R2hDkMNQ9OpW9HNoOzCaMEI1XREILfhidOnJInakLtmhzWTqT12MT5F/wczkCAvZU6JxW5GIb41jNpwDbTwWo6VykMPMVP2ZgMg5KtWhkReIzXwNxyOHPis0yDl2s29NiSEWZ16Pwrfu6tIUf+89omj8tD4EFVQxgToCHLuYQe7KixlMfrzaxtPB4B0gUmGcz5pVeJqeAd/M3bGnLnpUi1KPwUkvEDsCz8P9xhIx6cjOJ03GapSVHWiHjZ42lfK82tHjzhgMw+5G055UDSEffdjOGXLb/M62benkSJtPx8fFHJgghSWkrEXEE8bZa9eKCkTfxXDFBxZdqAtKa8wbjGhXGy7bggOf5efZp8LPsJVAsmP1lBSD71KL5nbVLhW2ZBfsoQ6XLHpZySZ4LSfO3epOsnCQxeSZVJSQc30AyEszY/dLy+Ve0btRidPfZZS48qSNKkEtZL8rNXT4U7z1ccHS+3QmtxN1liRSzRP4eB9cWuMPYLBkPatNdIT3ZB7M9FZFhRKtcA7haq61rtOvIiMzyrxgllgYcn5eotE1teA+2teGFMPJ0dtsMDk4u1d4q3/fbW2S9PW9fpR93HWf0IJ3BrPZQMqFhcvLn4BafwDMJgxfQPZ"
+    #pipelines:
+      #- example-deploy-testing
+      #- build-testing
+pipelines:
+  ovoex:
+    group: services
+    label_template: "${master[:8]}"
+    lock_behavior: none
+    materials:
+      master: # this is the name of material, the name can contain only of alphanumeric & underscore characters
+        # keyword git says about type of material and url at once
+        git: git@github.com:NAJ10/gocd-terraform.git
+        branch: master
+    stages: # list of stages in order
+      - build: # name of stage
+          clean_workspace: true
+          jobs:
+            build: # name of the job
+              tasks:
+               - exec: # indicates type of task
+                   command: bash
+                   arguments:
+                     - -c
+                     - echo ${GCP_KEY} | base64 --decode > gcp.json
+               - exec:
+                   command: terraform
+                   arguments:
+                     - plan
