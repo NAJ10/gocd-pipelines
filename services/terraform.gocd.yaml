@@ -10,7 +10,7 @@ environments:
       #- example-deploy-testing
       #- build-testing
 pipelines:
-  ovoex:
+  terraform:
     group: services
     label_template: "${master[:8]}"
     lock_behavior: none
